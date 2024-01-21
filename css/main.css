@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+header {
+    background-color: rgb(162, 20, 20);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 2rem;
+}
+
+.logo {
+         padding: 2rem;
+}
+
+
+.menu {
+        grid-template-columns: ;
+        gap: 1rem;
+
+}
+
+.section{
+   
+    background-color: rgb(69, 36, 36);
+    color: white;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    grid-template-areas:    
+    "reserva   info";
+    
+}
+
+.reserva {
+
+grid-area: reserva;
+}
+
+.info{
+    grid-area: info;
+}
+
+
+.imagen-a {
+border: 10px solid white;
+
+}
+.titulo-2 {
+
+    color: yellow;
+    margin-top: 1rem;
+  
+
+}
+.parrafo {
+    margin-top: 1rem;
+    
+
+}
+
+.button {
+    
+    margin-top: 1rem;
+    margin-block-end: 1rem;
+    border: 1px solid white;
+    padding: 0.5rem 1rem;
+    border-radius: 10rem;
+
+}
+
+.secciones {
+    padding: 3rem;
+    background-color: chocolate;
+    color: rgb(8, 0, 255);
+
+}
+.titulo-1 {
+
+    padding: 1rem;
+    text-align: center;
+   
+    
+}
+
+.grillas {
+
+    display: flex;
+    gap: 2rem;
+
+}
+.seccion {
+
+    background-color: darksalmon;
+    padding: 1rem;
+   
+}
+.seccion-icono {
+    border-color: blanchedalmond;
+    font-size: 2rem;
+    gap: 1rem;
+}
+.seccion-titulo {
+
+   margin-top: 1rem;
+
+}
+.seccion-parrafo {
+    
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.sec-button{
+    display: inline-block;
+    margin-top: 1rem;
+
+}
+
+.footer {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+
+   
+}
+
+.titulo-4{
+    margin-top: 1rem;
+    text-align: end;
+}
+
+.footer-1{
+   text-align: left;
+margin-top: 1rem;
+margin-block-end: 1rem;
+border: 1px solid black;
+padding: 1rem 1rem;
+
+
+}
+.footer-2 {
+    
+    text-align: center;
+    margin-top: 1rem;
+margin-block-end: 1rem;
+border: 1px solid black;
+padding: 1rem 1rem;
+}
+
+.footer-3{
+    text-align: center;
+    margin-top: 1rem;
+    margin-block-end: 1rem;
+    border: 1px solid black;
+    padding: 1rem 1rem;
+
+}
+.parrafo-1 {
+    margin-top: 1rem;
+}
+.grilla{
+
+align-items: center;
+margin-top: 1rem;
+}
+
+.quienes {
+    text-align: center;
+    padding: 1rem;
+    
+}
+.imagen-c {
+
+    width: 20rem;
+}
+
+.form{
+    background-color: chocolate;
+    margin-top: 1rem;
+}
+.titulo-5{
+    padding: 1rem;
+}
+.form-1 {
+    align-items: center;
+}
+.titulo-6{
+    padding: 1rem;
+}
+.campos{
+    display: block;   
+    background-color: rgb(157, 165, 42);
+    color: white;
+    margin-bottom: 1rem;
+
+}
+
+.boton {
+
+    background-color: blueviolet;
+    color: bisque;
+    margin-bottom: 2rem;
+    text-size-adjust: 2rem;
+   
+    
+}
+
+.icono-1{
+    padding: 0.5rem;
+  
+    ;/*no logro que las imagenes sean iguales*/
+  
+}
+
+.icono-2 {
+    padding: 0.5rem;/*no logro que las imagenes sean iguales*/
+
+}
+
+.icono-3{
+    padding: 0.5rem;/*no logro que las imagenes sean iguales*/
+
+}
+
+.maps{
+    display: flex;
+       width: 50%;
+}
+
+.maps path{
+    fill: rgb(135, 88, 32);
+    stroke: bisque;
+    stroke-width: 2px;
+
+}
+.maps :hover {
+    fill: rgb(92, 92, 24);
+}
+
+.titulo-7{
+    display: flex;
+    background-color: aquamarine;
+    align-items: center;
+}
